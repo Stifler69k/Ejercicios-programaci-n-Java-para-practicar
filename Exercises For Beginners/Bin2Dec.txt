@@ -12,9 +12,3 @@
         calcularse usando una sola función matemática, por ejemplo, el logaritmo natural. Depende de usted 
         averiguar qué función usar.    
 */
-public Class Bin2Dec{
-    public static void main(String[] args){
-        
-        
-    }
-}
