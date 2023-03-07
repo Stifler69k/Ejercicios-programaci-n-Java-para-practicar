@@ -1,0 +1,20 @@
+/*
+    Binario es el sistema numérico en el que se basan todas las computadoras 
+    digitales. Por lo tanto, es importante que los desarrolladores comprendan las 
+    matemáticas binarias o de base 2. El propósito de Bin2Dec es proporcionar práctica 
+    y comprensión de cómo se realizan los cálculos binarios.
+    Bin2Dec permite al usuario ingresar cadenas de hasta 8 dígitos binarios, 0 y 1, en 
+    cualquier secuencia y luego muestra su equivalente decimal.
+    Este desafío requiere que el desarrollador que lo implemente siga estas restricciones:
+
+        No se pueden utilizar matrices para contener los dígitos binarios introducidos por el usuario
+        La determinación del equivalente decimal de un dígito binario particular en la secuencia debe 
+        calcularse usando una sola función matemática, por ejemplo, el logaritmo natural. Depende de usted 
+        averiguar qué función usar.    
+*/
+public Class Bin2Dec{
+    public static void main(String[] args){
+        
+        
+    }
+}
