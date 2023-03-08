@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tienda {
+public class TopVentas {
     public static void main(String[] args) {
 
         double ventas [] = new double[10]; //Creamos un Array que se llama 'ventas' de 10 posiciones
