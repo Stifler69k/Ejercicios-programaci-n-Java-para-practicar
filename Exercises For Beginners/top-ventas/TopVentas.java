@@ -19,8 +19,8 @@ public class TopVentas {
         System.out.println("Ventas que superan los 2000$: ");
         while (k < 10){ //Mientras k sea menor a 10, el bucle while itera
             if(ventas[k] >= 2000){
-                System.out.println("$" + ventas[k]);
-                total ++; //Si la venta es de 2000 o superior total incrementa
+                System.out.println("$" + ventas[k]); //Imprimimos la venta si es igual o mayor a 2000
+                total ++; //Si la venta es de 2000 o superior, la variable total incrementa
             }
             k++;
         }
