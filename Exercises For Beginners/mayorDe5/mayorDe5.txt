@@ -1,0 +1,4 @@
+/*
+Crearemos un arreglo de 5 posiciones para almacenar números enteros. El programa al
+finalizar nos dirá cuál es el mayor de esos 5.
+*/
