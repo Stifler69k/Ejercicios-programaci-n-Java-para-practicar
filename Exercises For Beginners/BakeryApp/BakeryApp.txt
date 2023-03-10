@@ -1,0 +1,6 @@
+/*
+Programa sencillo que simula la app de una panaderia:
+La pieza de pan cuesta a $5.
+Si se compraron más de 50 piezas, cada pieza costará a $4.5
+Si se compraron más de 100, cada pieza costará a $4.
+*/
