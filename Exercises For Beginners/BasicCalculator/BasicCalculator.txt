@@ -1,0 +1,43 @@
+//Crearemos un programa que sea capaz de hacer operaciones aritméticas básicas:
+
+/*
+PASOS A SEGUIR (enumerados en el código):
+
+1.-Declarar variables para almacenar dos números y una operación matemática
+2.-Pedir al usuario que ingrese los números y la operación deseada utilizando la clase Scanner
+3.-Utilizar una estructura de control de flujo switch para ejecutar la operación matemática deseada
+4.-Mostrar el resultado en pantalla
+5.-Cerrar el objeto Scanner para liberar recursos
+*/
+
+/*
+Estructura de control de flujo: switch
+
+El control de flujo switch en Java es una estructura de control que permite al programador evaluar una expresión y ejecutar 
+diferentes bloques de código según el valor de la expresión. La sintaxis básica de la estructura switch es la siguiente:
+    
+    switch (expresión) {
+    case valor1:
+        // Código a ejecutar si la expresión es igual a valor1
+        break;
+    case valor2:
+        // Código a ejecutar si la expresión es igual a valor2
+        break;
+    // y así sucesivamente para cada caso
+    default:
+        // Código a ejecutar si la expresión no es igual a ningún caso
+        break;
+    }
+
+Aquí hay una breve descripción de cada elemento de la estructura switch:
+
+La expresión es cualquier expresión que se pueda evaluar en un valor único. Este valor será comparado con cada uno de los casos 
+en la estructura switch.
+Cada caso contiene un valor constante que se compara con la expresión. Si la expresión es igual al valor del caso, el código dentro 
+del caso se ejecuta. El caso debe finalizar con una sentencia break para salir de la estructura switch. 
+Si no se encuentra ninguna coincidencia, la ejecución pasará al caso default (si está presente).
+El caso default es opcional y se ejecuta si no hay coincidencia entre la expresión y ningún caso. 
+Si no hay caso default, la estructura switch simplemente no hace nada si no hay coincidencia.
+La sentencia break es necesaria en cada caso para evitar la ejecución de los casos siguientes una vez que se ha encontrado un caso que 
+coincide con la expresión.
+*/
