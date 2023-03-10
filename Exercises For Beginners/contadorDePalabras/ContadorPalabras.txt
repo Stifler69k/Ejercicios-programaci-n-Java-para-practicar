@@ -1,0 +1,46 @@
+//Crearemos un programa que dado un texto cuente las palabras del texto:
+
+/*
+En resumen, este programa utiliza un bucle para recorrer cada carácter en una cadena de texto y determinar si
+es un espacio en blanco o no. Si encuentra un espacio en blanco, se indica que el programa ha terminado de
+procesar una palabra. Si encuentra un carácter que no es un espacio en blanco y la variable esTexto es false,
+se cuenta una nueva palabra y se indica que el programa está procesando una nueva palabra. Al final, el programa
+imprime el número total de palabras encontradas en el texto.
+*/
+
+/* 
+PASOS ENUMERADOS EN EL CÓDIGO:
+1.- Pedimos al usuario que ingrese un texto.
+2.- Guardamos el texto del usuario en una variable.
+3.- Creamos una varibale booleana 'esTexto' y la iniciamos en falsa.
+4.- Creamos una variable que servirá de contador para las palabras (iniciar en 0)
+5.- Recorremos el texto con un for
+6.- Por cada iteracion del for sobre el texo, guardaremos el caracter correspondiente
+    en una variable tipo char
+7.- (Character.isWhitespace()) Si el carácter actual es un espacio en blanco, se establece la variable booleana esTexto en
+    false para indicar que el programa ha terminado de procesar una palabra.
+    Si el carácter actual no es un espacio en blanco y la variable esTexto es false, se incrementa la
+    variable count en 1 para indicar que se ha encontrado una nueva palabra, y se establece esTexto en true
+    para indicar que el programa está procesando una nueva palabra.
+8.- Una vez que el bucle ha terminado de recorrer toda la cadena de texto, se imprime el número total de palabras
+    encontradas en el texto.
+*/
+
+/*
+BREVE EXPLICACIÓN DEL MÉTODO Character.isWhitespace():
+
+Character.isWhitespace() es un método estático de la clase Character en Java que se utiliza para determinar si un carácter específico 
+es un espacio en blanco.
+
+La sintaxis de este método es la siguiente:
+    public static boolean isWhitespace(char ch)
+
+Este método toma como argumento un carácter ch y devuelve true si el carácter es un espacio en blanco, y false en caso contrario. 
+Los caracteres que se consideran espacios en blanco son aquellos definidos por el estándar Unicode, que incluyen el espacio en blanco 
+"normal" (carácter 32), tabulaciones (carácter 9), retornos de carro (carácter 13), saltos de línea (carácter 10) y otros caracteres similares.
+Por ejemplo, si se llama al método con un carácter que representa un espacio en blanco, como el carácter ' ' (carácter número 32), el método 
+devolverá true. Si se llama con cualquier otro carácter, como 'a' o '!', el método devolverá false.
+Este método puede ser útil en muchas situaciones diferentes en las que se necesite determinar si un carácter específico es un espacio en 
+blanco o no. Por ejemplo, se puede utilizar para validar una entrada de usuario que requiere que no haya espacios en blanco, o para separar 
+una cadena de texto en palabras utilizando los espacios en blanco como separadores.    
+*/
