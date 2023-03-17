@@ -1,0 +1,32 @@
+/*
+    Este programa pedirá una indefinida cantidad de números, y en el momento en que el usuario teclee un cero, dejará de 
+    pedir más números. Al final mostrará la suma de todos los números introducidos.
+/*
+
+// Herramienrtas o métodos usados:
+
+/*
+La función hasNextInt() es un método de la clase Scanner en Java que se utiliza para verificar si el siguiente token en la 
+entrada del usuario es un número entero o no.
+Esta función es útil cuando se espera que el usuario ingrese un valor numérico en el programa, y se quiere asegurar que el 
+valor ingresado sea un número entero válido antes de continuar con la ejecución del programa.
+El método hasNextInt() retorna un valor booleano, es decir, devuelve true si el siguiente token en la entrada del usuario es un número entero, 
+de lo contrario devuelve false.
+*/
+
+/*
+El bucle "do-while" es una estructura de control de flujo en Java que ejecuta un bloque de código al menos una vez y luego se repite 
+mientras se cumple una condición específica.
+La sintaxis básica de un bucle "do-while" en Java es la siguiente:
+
+    do {
+   // bloque de código a ejecutar
+    } while (condición);
+
+Primero, se ejecuta el bloque de código dentro del do, independientemente de si la condición es verdadera o falsa. Luego, se verifica 
+la condición en el while. Si la condición es verdadera, el bloque de código se ejecutará nuevamente, y así sucesivamente hasta que la 
+condición sea falsa. Si la condición es falsa, el bucle se detiene y el control del programa pasa a la siguiente instrucción después del bucle.
+El bucle "do-while" es útil en situaciones donde se necesita ejecutar un bloque de código al menos una vez, independientemente de si la 
+condición es verdadera o falsa. 
+Además, también puede ser útil cuando no se sabe cuántas veces se debe repetir el bloque de código.
+*/
