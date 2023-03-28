@@ -1,0 +1,22 @@
+/*
+Usando un ciclo while, haremos este programa. Se nos pedirán una indeterminada cantidad de números, con la condición
+que sólo sean positivos. Y el programa sumará esos números, y obtendrá su promedio.
+*/
+(PARA SALIR DEL PROGRAMA Y OBTENER LA MEDIA HAY QUE INGRESAR UN NÚMERO) 
+
+// Herramientas o métodos usados:
+
+El bucle "while" en Java se utiliza para repetir una sección de código mientras se cumple una determinada condición. 
+La sintaxis básica del bucle "while" es la siguiente:
+	
+	while (condición) {
+  	  // Código a ejecutar mientras se cumpla la condición
+	}
+
+La "condición" es una expresión booleana que se evalúa antes de cada iteración del bucle. Si la condición es verdadera, 
+el código dentro del bucle se ejecutará. Si la condición es falsa, el bucle se detendrá y la ejecución continuará con 
+la siguiente línea de código después del bucle.
+
+Es importante tener en cuenta que si la condición nunca se vuelve falsa, el bucle se ejecutará infinitamente, lo que 
+puede causar problemas en la ejecución del programa. Por lo tanto, es importante asegurarse de que la condición 
+eventualmente se vuelva falsa para que el bucle se detenga.
