@@ -1,0 +1,40 @@
+/*
+Crea un array que contenga las letras del abecedario (en mayusculas) y que nos permita ir
+cogiendo letras de sus posiciones hasta que insertemos un -1 (si no esta en el array se vuelve a pedir).
+
+EXPLICACION DEL PROGRAMA PASO A PASO:
+
+    1.- Se importa la clase "Scanner" del paquete "java.util", que permite leer la entrada del usuario desde la consola.
+
+    2.- Se crea un arreglo de caracteres llamado "abecedario" con una longitud calculada como la diferencia entre el
+    valor ASCII de 'Z' (90) y el valor ASCII de 'A' (65), más 1. Esto crea un arreglo con suficiente espacio para
+    almacenar todas las letras mayúsculas del abecedario en inglés.
+
+    3.- Se utiliza un bucle "for" para iterar desde el valor ASCII de 'A' (65) hasta el valor ASCII de 'Z' (90) inclusive.
+    En cada iteración, se asigna el valor ASCII convertido a caracter a cada elemento del arreglo "abecedario",
+    utilizando el operador de casting "(char)" para convertir el valor entero a tipo char.
+    Esto llena el arreglo con las letras mayúsculas del abecedario en inglés.
+    
+    4.- Se crea un objeto de la clase "Scanner" llamado "sc" para leer la entrada del usuario desde la consola.
+    
+    5.- Se muestra un mensaje en la consola para solicitar al usuario que ingrese números entre 0 y la longitud del
+    arreglo "abecedario" - 1, y se almacena el valor ingresado en la variable "numeros".
+    
+    6.- Se declara una variable de tipo String llamada "letras" para almacenar las letras correspondientes a los números i
+    ngresados por el usuario.
+    
+    7.- Se utiliza un bucle "while" para continuar solicitando números al usuario hasta que se ingrese el valor -1.
+    
+    8.- Dentro del bucle "while", se verifica si el número ingresado por el usuario está dentro del rango válido
+    (entre 0 y la longitud del arreglo "abecedario" - 1) utilizando una condición "if". Si es así, se concatena la letra
+    correspondiente al número en la variable "letras" utilizando el operador de concatenación "+=". Luego se muestra un
+    mensaje en la consola para solicitar al usuario que ingrese otro número.
+    
+    9.- Si el número ingresado por el usuario no está dentro del rango válido, se muestra un mensaje en la consola
+    informando que el número no es válido y se solicita al usuario que ingrese otro número.
+    
+    10.- Después de salir del bucle "while", se muestra un mensaje en la consola que muestra las letras correspondientes
+    a los números ingresados por el usuario, utilizando el valor almacenado en la variable "letras".
+    
+    11.- El programa finaliza y muestra las letras correspondientes a los números ingresados por el usuario en la consola.
+*/

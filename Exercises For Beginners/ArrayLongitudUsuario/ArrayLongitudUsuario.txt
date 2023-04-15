@@ -1,0 +1,41 @@
+/*
+Crea un array de una longitud que determine el usuario y que le permita insertar numeros entre 0 y 10
+
+EXPLICACION DEL PROGRAMA PASO A PASO:
+
+    1.- Se importa la clase "Scanner" del paquete "java.util", que se utilizará para leer la entrada del
+    usuario desde la consola.
+    2.- Se define una clase llamada "ArrayLongitudUsuario".
+    3.- Se declara el método "main" como público y estático, que es el punto de entrada del programa.
+    Este método es el que se ejecuta cuando el programa es iniciado.
+    4.- Se imprime en la consola el mensaje "Dame una longitud:", para solicitar al usuario que ingrese la longitud
+    del arreglo que se va a crear.
+    5.- Se crea una instancia de la clase "Scanner" llamada "sc", que se utilizará para leer la entrada del usuario
+    desde la consola.
+    6.- Se lee un entero ingresado por el usuario usando el método "nextInt()" de la clase "Scanner", y se almacena
+    en la variable "longitud". Este valor será utilizado como la longitud del arreglo "numeros".
+    7.- Se crea un arreglo de enteros llamado "numeros" con la longitud especificada por el usuario, utilizando la
+    sintaxis "new int[longitud]".
+    8.- Se imprime en la consola el mensaje "Inserta números del 0 al 10:", para solicitar al usuario que ingrese
+    los números que se almacenarán en el arreglo.
+    9.- Se declara una variable "num" de tipo entero, que se utilizará para leer los números ingresados por el usuario.
+    10.- Se utiliza un bucle "for" para iterar sobre el arreglo "numeros" y solicitar al usuario que ingrese un número
+    en cada posición del arreglo.
+    11.- Dentro del bucle "for", se imprime en la consola el mensaje "Inserte un número en la posición i", donde "i"
+    es el índice de la posición actual del arreglo.
+    12.- Se utiliza un bucle "do-while" para leer el número ingresado por el usuario utilizando el método "nextInt()"
+    de la clase "Scanner", y se almacena en la variable "num".
+    13.- Se verifica si el número ingresado por el usuario está fuera del rango permitido (0 a 10), utilizando una
+    condición "if". Si es así, se imprime un mensaje de error en la consola y se solicita al usuario que ingrese
+    nuevamente el número en la misma posición del arreglo.
+    14.- El bucle "do-while" se ejecuta hasta que el número ingresado por el usuario esté dentro del rango permitido.
+    15.- Una vez que el número ingresado por el usuario está dentro del rango permitido, se asigna a la posición actual
+    del arreglo "numeros" el valor de la variable "num".
+    16.- Se repite el proceso de solicitar al usuario que ingrese un número en la siguiente posición del arreglo hasta
+    que se hayan ingresado todos los números requeridos por el usuario.
+    17.- Se imprime en la consola el mensaje "Estos son los números insertados por el usuario:", para indicar que se
+    mostrarán los números ingresados por el usuario.
+    18.- Se utiliza otro bucle "for" para iterar sobre el arreglo "numeros" y se imprime cada elemento en la consola
+    utilizando el método "println()" de la clase "System.out.println()".
+    19.- El programa finaliza y muestra los números ingresados por el usuario en la consola.
+*/

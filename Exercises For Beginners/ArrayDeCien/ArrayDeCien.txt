@@ -1,0 +1,32 @@
+/*
+1. Crea un array que contenga los numeros del 1 al 100. Muestralos por pantalla.
+2. Con el array creado anteriormente, calcula la suma y la media de todos sus valores.
+
+EXPLICACION DEL PROGRAMA PASO A PASO:
+
+    1.- Se crea un arreglo de enteros llamado "numeros" con una longitud de 100, utilizando la sintaxis "new int[100]".
+    Esto crea un arreglo con 100 elementos, indexados desde 0 hasta 99.
+    
+    2.- Se declaran dos variables, "suma" y "media", de tipo entero y double respectivamente, para almacenar la suma y
+    la media de los números en el arreglo.
+    
+    3.- Se utiliza un bucle "for" para iterar sobre el arreglo "numeros" y asignarles valores a cada elemento del
+    arreglo. En este caso, se asigna el valor de "i + 1" a cada elemento del arreglo, donde "i" es el índice del
+    elemento en el bucle. Esto llena el arreglo con los números del 1 al 100.
+    
+    4.- Dentro del bucle "for", se suma el valor de cada elemento del arreglo a la variable "suma" utilizando el
+    operador de suma "+=". Esto calcula la suma total de los números en el arreglo.
+    
+    5.- Se calcula la media dividiendo la variable "suma" entre la longitud del arreglo "numeros", utilizando la
+    conversión de tipos "(double) suma" para asegurar que la división se realice en punto flotante y se almacena el
+    resultado en la variable "media".
+    
+    6.- Se imprime en la consola el mensaje "La suma da como resultado: " seguido del valor de la variable "suma",
+    para mostrar el resultado de la suma.
+    
+    7.- Se imprime en la consola el mensaje "La media da como resultado: " seguido del valor de la variable "media",
+    para mostrar el resultado de la media.
+    
+    8.- El programa finaliza y muestra el resultado de la suma y la media de los números del 1 al 100 en la consola.
+
+*/

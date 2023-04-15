@@ -1,0 +1,26 @@
+/*
+Haremos un programa que dado un texto por consola nos cuente las vocales de dicho texto
+
+//METODOS USADOS:
+El método charAt() es un método de la clase String en Java que permite obtener el carácter 
+en una posición específica dentro de un objeto String.
+Toma un índice como argumento y devuelve el carácter que se encuentra en esa posición.
+
+La sintaxis del método charAt() es la siguiente:
+
+    char charAt(int index)
+
+Donde index es el índice del carácter que se quiere obtener. Los índices en Java comienzan desde 0, es decir, 
+el primer carácter de un String tiene un índice de 0, el segundo carácter tiene un índice de 1, y así sucesivamente.
+
+Por ejemplo, consideremos el siguiente código:
+
+    String frase = "Hola";
+    char primerCaracter = frase.charAt(0); // Obtiene el primer carácter de la frase
+    char segundoCaracter = frase.charAt(1); // Obtiene el segundo carácter de la frase
+
+En este caso, el método charAt(0) devuelve el carácter 'H', que es el primer carácter de la frase "Hola", y el método charAt(1) devuelve el
+carácter 'o', que es el segundo carácter de la frase. Es importante tener en cuenta que si se intenta acceder a un índice que está fuera del
+rango válido de índices para el String, se lanzará una excepción StringIndexOutOfBoundsException. Por lo tanto, es importante verificar siempre
+que el índice esté dentro del rango válido antes de usar el método charAt().
+*/

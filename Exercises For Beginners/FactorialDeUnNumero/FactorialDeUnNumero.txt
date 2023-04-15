@@ -1,0 +1,42 @@
+/*
+Crear una función que nos devuelva el factorial de un número entero.
+
+El factorial de un número es el producto de todos los números enteros positivos desde 1 hasta el número en cuestión.
+Se denota con el símbolo "!" después de un número. Por ejemplo, el factorial de 5 se representa como 5! y se calcula de
+la siguiente manera:
+
+5! = 5 x 4 x 3 x 2 x 1 = 120
+
+En general, el factorial de un número n se calcula multiplicando todos los números enteros desde 1 hasta n.
+Matemáticamente, se puede expresar como:
+
+n! = n x (n - 1) x (n - 2) x ... x 3 x 2 x 1
+
+El factorial es una operación matemática que se utiliza en diversas áreas como la combinatoria, la teoría de
+probabilidades, las matemáticas aplicadas y la estadística, entre otras. Es importante tener en cuenta que el
+factorial crece rápidamente a medida que el número n aumenta, lo que lo hace útil en la representación de situaciones
+en las que se necesitan contar o calcular el número de arreglos posibles de un conjunto de elementos.
+Sin embargo, el factorial está definido solo para números enteros no negativos, ya que no está definido para
+números fraccionarios o negativos.
+
+EXPLICACION DEL PROGRAMA PASO A PASO:
+
+    1.- Se define una clase llamada "FactorialDeUnNumero".
+    2.- Se declara el método "main" como público y estático, que es el punto de entrada del programa.
+    Este método es el que se ejecuta cuando el programa es iniciado.
+    3.- Dentro del método "main", se imprime en la consola el resultado de llamar a la función "factorial"
+    con el argumento 5, usando la función "System.out.println()". El resultado de esta llamada será el factorial de 5.
+    4.- Se declara el método "factorial" como público y estático, que calcula el factorial de un número entero pasado
+    como argumento. El argumento se llama "numero" y es de tipo entero.
+    5.- Se realiza una validación para verificar si el número es negativo. Si es negativo, se imprime un mensaje de
+    error en la consola y se retorna -1.
+    6.- Se verifica si el número es 0 o 1. Si es así, se retorna 1, ya que el factorial de 0 y 1 es 1.
+    7.- Se declara una variable "resultado" y se le asigna el valor del número pasado como argumento.
+    Esta variable se usará para calcular el resultado del factorial.
+    8.- Se utiliza un bucle "for" que inicia con el valor del número menos 1 y se decrementa hasta 1. En cada iteración
+    del bucle, se multiplica el valor actual de la variable "resultado" por el valor de la variable del bucle "i".
+    9.- Al final del bucle, se habrá calculado el factorial del número pasado como argumento, que se encuentra
+    almacenado en la variable "resultado", y se retorna este valor como resultado del método.
+    10.- El resultado del cálculo del factorial se imprimirá en la consola dentro del método "main" cuando se llame a
+    la función "System.out.println()" con el resultado de la función "factorial(5)" como argumento.
+*/

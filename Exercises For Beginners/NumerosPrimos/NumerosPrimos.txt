@@ -1,0 +1,25 @@
+/*
+Crear una función que nos indique si un número es primo o no.
+
+Los números primos son aquellos que solo son divisibles entre ellos mismos y el 1, es decir, que si intentamos
+dividirlos por cualquier otro número, el resultado no es entero. Dicho de otra forma, si haces la división por
+cualquier número que no sea 1 o él mismo, se obtiene un resto distinto de cero.
+
+//EXPLICACION DEL PROGRAMA PASO A PASO (ENUMERADO EN EL ARCHIVO .JAVA)
+
+    1.- Se define una clase llamada NumerosPrimos con un método main que es el punto de entrada del programa.
+    2.- Dentro del método main, se llama al método esPrimnoOno con el argumento 4.
+    3.- El método esPrimnoOno toma un número entero como argumento.
+    4.- Se realiza una verificación para asegurarse de que el número sea mayor que 1. Si el número es menor
+    o igual a 1, se imprime un mensaje de que el 1, el 0 y los números negativos no son números primos, y
+    se retorna false.
+    5.- Se inicia un bucle for que comienza desde la raíz cuadrada del número ((int)Math.sqrt(numero)) y va
+    decrementando hasta 1 en cada iteración. Esto se hace para optimizar el rendimiento, ya que no es necesario
+    comprobar divisores más grandes que la raíz cuadrada del número para determinar si es primo.
+    6.- Dentro del bucle, se verifica si el número es divisible por i (es decir, si el residuo de la división es 0).
+    Si es divisible, se imprime un mensaje de que el número no es primo, y se retorna false.
+    7.- Si el bucle completa todas las iteraciones sin encontrar ningún divisor, se imprime un mensaje de que el número
+    es primo, y se retorna true.
+    8.- En el método main, después de llamar a esPrimnoOno(4), el programa imprimirá "El número: 4 NO es primo!" porque
+    4 no es un número primo.
+*/
