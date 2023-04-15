@@ -2,7 +2,7 @@
 Usando un ciclo while, haremos este programa. Se nos pedirán una indeterminada cantidad de números, con la condición
 que sólo sean positivos. Y el programa sumará esos números, y obtendrá su promedio.
 */
-(PARA SALIR DEL PROGRAMA Y OBTENER LA MEDIA HAY QUE INGRESAR UN NÚMERO) 
+(PARA SALIR DEL PROGRAMA Y OBTENER LA MEDIA HAY QUE INGRESAR UN NÚMERO NEGATIVO) 
 
 // Herramientas o métodos usados:
 
